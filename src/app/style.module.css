@@ -1,0 +1,40 @@
+.linkdiv {
+  cursor: pointer;
+  text-align: center;
+  border-radius: 2%;
+  padding: 5px 0;
+}
+.link {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  margin: auto;
+}
+
+.linkdiv:hover {
+  animation: fade 1s forwards;
+}
+@keyframes fade {
+    0% {
+      background-color: rgba(131, 211, 235, 0);
+    }
+  
+    100% {
+      background-color: rgba(255, 244, 90, 0.7);
+    }
+  }
+
+.linkdiv:active {
+    animation: click 1s forwards;
+  }
+  @keyframes click {
+    0% {
+     transform: scale(1);
+    }
+  
+    100% {
+        transform: scale(2);
+    }
+  }
+
+
